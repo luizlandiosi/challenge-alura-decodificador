@@ -1,0 +1,236 @@
+.logo {
+
+  position: relative;
+  left: 0.67%;
+  right: 37.43%;
+  top: 0%;
+  bottom: 0%;
+}
+
+body {
+
+  width: 99%;
+  height: 100%;
+  background: #E5E5E5;
+
+}
+
+.areaPrincipal{
+ 
+ position: relative;
+ width: 800px;
+ height: 600px;
+ background: #FFFFF;
+}
+
+
+.textBoxOne {
+
+  position: relative;
+  width: 680px;
+  height: 48px;
+  left: 120px;
+  top: 90px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+  color: #0A3871;
+
+}
+
+.textBoxTwo {
+  
+  position: relative;
+  width: 400px;
+  height: 400px;
+  left: 900px;
+  top: 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px
+  
+}
+
+.areaOne {
+
+  background: rgba(0, 0, 0,);
+  color: black;
+
+}
+
+.areaTwo {
+
+  background: rgba(255,255,255,0.5);
+  color: black;  
+
+}
+
+textarea {
+
+  resize: none;
+  width: 100%;
+  display:inline-block;
+  font-size: 24px;
+  border: 2px;
+  border-radius: 10px;
+
+}
+
+.areaPrincipal p {
+
+width: 228px;
+height: 18px;
+display: inline-block;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 150%;
+color: #495057;
+opacity: 0.8;
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.aviso {
+position: relative;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+}
+
+.bothButtons {
+ 
+  display: relative;
+  padding: 1% 0;
+  margin: 0 15% 50% 15%;
+   
+ 
+}
+
+.criptoButton {
+  display: relative;
+  flex-direction: row;
+  align-items: center;
+  padding: 24px;
+  gap: 8px;
+  text-align: center;
+  width: 328px;
+  height: 67px; 
+  background: #0A3871;
+  border-radius: 24px;
+  
+}
+
+.criptoButton {
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  position:  relative;
+  color: white;
+  flex: none;
+  order: 0;
+  flex-grow: 1;
+
+
+
+}
+
+.criptoButton:hover {
+  background: #0A3871;
+  border: 2px solid black;
+}
+
+.criptoButton:active{
+
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.decriptoButton {
+
+  display: relative;
+  flex-direction: row;
+  align-items: center;
+  padding: 24px;
+  gap: 8px;
+  text-align: center;
+  width: 328px;
+  height: 67px;
+  background: #D8DFE8;
+  border-radius: 24px;  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  position:  absolute;
+  color: #0A3871;
+  flex: none;
+  order: 0;
+  flex-grow: 1;    
+}
+
+.decriptoButton:hover {
+  background: #D8DFE8;
+  color: #0A3871;
+  border: 2px solid black;
+}
+
+.decriptoButton:active{
+
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.copiar {
+
+box-sizing: border-box;
+
+display: relative;
+flex-direction: row;
+align-items: center;
+padding: 24px;
+gap: 8px;
+border-radius: 24px;  
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+ font-size: 16px;
+
+position: absolute;
+width: 336px;
+height: 67px;
+left: 35px;
+top: 310px;
+
+border: 1px solid #0A3871;
+border-radius: 24px;
+}
+.copiar:hover {
+  background: #D8DFE8;
+  color: #0A3871;
+  border: 2px solid black;
+}
+.copiar:active{
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+
+
+footer {
+  
+  width: 50%;
+  background-color: #E5E5E5;
+  
+}

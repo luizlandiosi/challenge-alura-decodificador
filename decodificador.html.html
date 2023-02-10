@@ -1,0 +1,51 @@
+<!doctype HTML>
+<html class="no-js" lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Decodificador</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="testchallenge.css">
+    </head>
+
+    <header class="cabecalho">
+       <div class="logo"> 
+         <h1><img src="file:///C:/Users/grdat/Downloads/Vector.svg"></h1>            
+        </div>
+    </header>    
+
+    <body>
+
+    	<div class="areaPrincipal">
+            <div class="areaCriptografia">
+                <div class="textBoxOne">
+                    <textarea class="areaOne" rows="10" cols="100" id="textAreaEncripto" placeholder="Digite seu texto"></textarea><br>
+                    <img class="aviso" src="file:///C:/Users/grdat/Downloads/Vector%20(1).svg">
+                    <p>Apenas letras minúsculas e sem acento. </p>                                     
+                </div>
+                <div class="textBoxTwo">
+                    <textarea class="areaTwo" rows="10" cols="100" id="textAreaDecripto" placeholder="Nenhuma mensagem encontrada"></textarea><br>
+                    <button class="copiar" onclick="textCopy('textAreaDecripto')">Copiar</button>
+
+                </div>
+            </div>
+            <div class="bothButtons">
+                <button class="criptoButton" onclick="Encriptografia()">Criptografar</button><button class="decriptoButton" onclick="Decriptografia()">Decriptografar</button>                
+            </div>
+    	</div>
+
+        
+       
+       <script type="text/javascript" src="test.js"></script>
+
+    <footer>
+        
+        <p>by Luiz Fernando Landiosi</p>
+
+    </footer>
+
+
+
+    </body>
+
+
+</html>
